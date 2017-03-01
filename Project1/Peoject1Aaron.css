@@ -1,0 +1,81 @@
+.yoyo{
+	width: 250px;
+	height: 250px;
+	float: right;
+	display: inline;
+}
+table{
+	border-color: black;
+	font-family: cursive;
+}
+/*#food{
+	margin-top:100px; 
+}*/
+#text2{
+	text-align: right;
+	padding: 250px;
+	margin-right:-200px;
+	font-family: Georgia;
+	font-size: 40px;
+}
+h1{
+	font-size:60px;
+	font-family:Georgia;
+	:center;
+}
+p{
+    font-family: Georgia;
+	font-size: 40px;
+}
+#text{
+	font-family: Georgia;
+	font-size: 40px;
+}
+#fma{
+	height:300px;
+	width:300px;
+	float: left;
+	padding-bottom: 100px;
+}
+
+/*to fit to other screens*/
+
+/*iPad screen*/
+
+
+@media screen and (max-width: 768px) {
+	.petDiv {
+		width: 42%;
+	}
+}
+
+
+
+/*iPhone 5 screen*/
+
+
+@media screen and (max-width: 320px) {
+	#headiv {
+		width: 170%;
+		text-align: left;
+	}
+	#footerCopyright {
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: .8rem;
+	}
+}
+
+/*iPhone 6 screen*/
+
+
+@media screen and (max-width: 667px) {
+	.petDiv {
+		width: 90%;
+	}
+}
